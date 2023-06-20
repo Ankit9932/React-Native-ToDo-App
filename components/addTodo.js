@@ -29,7 +29,9 @@ const styles=StyleSheet.create({
     AddTodoContainer:{
         borderRadius:10,
         padding:10,
-        backgroundColor:'#adad85'
+        backgroundColor:'#999966',
+        borderWidth:2,
+        borderRadius:10,
     },
     input:{
         padding:10,

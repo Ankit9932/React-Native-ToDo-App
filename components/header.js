@@ -11,17 +11,19 @@ export default function Header(){
 
 const styles=StyleSheet.create({
     header:{
-        paddingTop:50,
-        backgroundColor:'coral',
+        height:100,
+        backgroundColor:'#999966',
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'center', 
         // borderWidth:5,
-        // borderColor:'green',    
+        // borderColor:'green',  
     },
     title:{
-        textAlign:"center",
+        
         fontSize:25,
         fontWeight:'bold',
         color:'black',
-        justifyContent:'center',
         // borderWidth:2,
         // borderColor:'green'
     }

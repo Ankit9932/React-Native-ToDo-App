@@ -23,8 +23,8 @@ import React, { useState } from "react";
 
 // importing required components of App from componenets folder
 import Header from "./components/header"
-import TodoItem from "./components/todoItem";
 import AddTodo from "./components/addTodo";
+import TodoItem from "./components/todoItem";
 
 
 
@@ -123,9 +123,9 @@ const styles = StyleSheet.create({
     marginTop:50,
     padding:10,
     backgroundColor:'#999966',
-    borderRadius:10
-    // borderWidth:2,
-    // borderColor:'black'
+    borderRadius:10,
+    borderWidth:2,
+    borderColor:'black'
   }
 
 });

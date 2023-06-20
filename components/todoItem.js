@@ -15,7 +15,7 @@ export default function TodoItem({item, onPressAction}){
                 <Text style={styles.itemList}>{item.task}</Text>
 
                 {/* delete using icons */}
-                <MaterialIcons name='delete'size={20} color='coral'/>
+                <MaterialIcons name='delete'size={20} color='#555'/>
             </View>
         </TouchableOpacity>       
     )
